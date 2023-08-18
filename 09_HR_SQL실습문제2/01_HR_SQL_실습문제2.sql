@@ -290,5 +290,49 @@ WHERE e.department_id = D.DEPARTMENT_ID(+)
   AND E.SALARY BETWEEN J.LOWEST_SAL AND J.HIGHEST_SAL
 ;
 
+--쌤----------------------------------------
+SELECT E.EMPLOYEE_ID, E.FIRST_NAME ||' '|| E.LAST_NAME AS NAME, JOB_ID,
+       d.department_name,
+       E.HIRE_DATE, E.SALARY
+     , J.GRADE_LEVEL
+     , J.LOWEST_SAL, J.HIGHEST_SAL
+FROM EMPLOYEES E, DEPARTMENTS D, JOB_GRADES J
+WHERE e.department_id = D.DEPARTMENT_ID(+)
+  AND E.SALARY BETWEEN J.LOWEST_SAL AND J.HIGHEST_SAL
+;
+
+--쌤----------------------------------------
+SELECT E.EMPLOYEE_ID, E.FIRST_NAME ||' '|| E.LAST_NAME AS NAME, JOB_ID,
+       d.department_name,
+       E.HIRE_DATE, E.SALARY
+     , J.GRADE_LEVEL
+     , J.LOWEST_SAL, J.HIGHEST_SAL
+FROM EMPLOYEES E, DEPARTMENTS D, JOB_GRADES J
+WHERE e.department_id = D.DEPARTMENT_ID(+)
+  AND E.SALARY BETWEEN J.LOWEST_SAL AND J.HIGHEST_SAL
+;
+
+--쌤----------------------------------------
+SELECT E.EMPLOYEE_ID, E.FIRST_NAME ||' '|| E.LAST_NAME AS NAME, JOB_ID,
+       d.department_name,
+       E.HIRE_DATE, E.SALARY
+     , J.GRADE_LEVEL
+     , J.LOWEST_SAL, J.HIGHEST_SAL
+FROM EMPLOYEES E, DEPARTMENTS D, JOB_GRADES J
+WHERE e.department_id = D.DEPARTMENT_ID(+)
+  AND E.SALARY BETWEEN J.LOWEST_SAL AND J.HIGHEST_SAL
+;
+
+--쌤----------------------------------------
+SELECT E.EMPLOYEE_ID, E.FIRST_NAME ||' '|| E.LAST_NAME AS NAME, JOB_ID,
+       d.department_name,
+       E.HIRE_DATE, E.SALARY
+     , J.GRADE_LEVEL
+     , J.LOWEST_SAL, J.HIGHEST_SAL
+FROM EMPLOYEES E, DEPARTMENTS D, JOB_GRADES J
+WHERE e.department_id = D.DEPARTMENT_ID(+)
+  AND E.SALARY BETWEEN J.LOWEST_SAL AND J.HIGHEST_SAL
+;
+
 
 
