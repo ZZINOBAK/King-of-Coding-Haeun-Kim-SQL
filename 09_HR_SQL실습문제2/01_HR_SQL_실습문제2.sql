@@ -292,4 +292,3 @@ WHERE e.department_id = D.DEPARTMENT_ID(+)
 
 
 
-
